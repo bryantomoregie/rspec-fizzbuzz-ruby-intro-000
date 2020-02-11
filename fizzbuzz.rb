@@ -1,9 +1,9 @@
-def fizzbuzz(bry)
-  if bry % 15 == 0
+def fizzbuzz(variable)
+  if variable % 15 == 0
     return "FizzBuzz"
-  elsif bry % 5 == 0
+  elsif variable % 5 == 0
     return "Buzz"
-  elsif bry % 3 == 0
+  elsif variable % 3 == 0
     return "Fizz"
   else
     puts nil
